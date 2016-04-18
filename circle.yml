@@ -1,0 +1,3 @@
+machine:
+  post:
+    - nvm use node && nvm alias default $(nvm current)

@@ -1,0 +1,21 @@
+{
+  "name": "stackrabbit-request-id",
+  "version": "0.0.0",
+  "description": "Unique Request IDs for stackrabbit messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "danethurber/stackrabbit-request-id",
+  "keywords": [
+    "middleware",
+    "stackrabbit",
+    "generators",
+    "rabbit",
+    "rabbitmq",
+    "ampq",
+    "ampqlib"
+  ],
+  "author": "Dane Thurber <dane.thurber@gmail.com>",
+  "license": "MIT"
+}
