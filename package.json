@@ -4,7 +4,7 @@
   "description": "Unique Request IDs for stackrabbit messages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": "danethurber/stackrabbit-request-id",
   "keywords": [
@@ -17,5 +17,14 @@
     "ampqlib"
   ],
   "author": "Dane Thurber <dane.thurber@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.4.5",
+    "stackrabbit": "*"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  }
 }

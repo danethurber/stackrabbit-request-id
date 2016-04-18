@@ -1,0 +1,4 @@
+./*specs.js
+
+--ui bdd
+--require co-mocha
