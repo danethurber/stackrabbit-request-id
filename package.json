@@ -1,6 +1,6 @@
 {
   "name": "stackrabbit-request-id",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Unique Request IDs for stackrabbit messages",
   "main": "index.js",
   "scripts": {
